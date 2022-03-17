@@ -124,12 +124,8 @@ public class NewEditController {
     @FXML
     public void switchRepeatedCheckbox(ActionEvent actionEvent){
         CheckBox source = (CheckBox)actionEvent.getSource();
-        if (source.isSelected()){
-            hideRepeatedTaskModule(false);
-        }
-        else if (!source.isSelected()){
-            hideRepeatedTaskModule(true);
-        }
+        hideRepeatedTaskModule(!source.isSelected());
+
     }
     private void hideRepeatedTaskModule(boolean toShow){
         datePickerEnd.setDisable(toShow);
