@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe79f98-8ba9-4627-a3ca-7e0c8d7562fb" name="Default Changelist" comment="initial version">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Lab1/Lab01_ReviewReport.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab1/Lab01_ReviewReport.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/NewEditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/controller/NewEditController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/Notificator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/controller/Notificator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/ArrayTaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/ArrayTaskList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/services/TasksService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/services/TasksService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/view/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +230,9 @@
       <workItem from="1645232693727" duration="38000" />
       <workItem from="1645273188569" duration="39000" />
       <workItem from="1647515920151" duration="982000" />
-      <workItem from="1647516916951" duration="4061000" />
+      <workItem from="1647516916951" duration="4112000" />
+      <workItem from="1647703931515" duration="402000" />
+      <workItem from="1647706618690" duration="702000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1613577157958</created>
@@ -267,6 +264,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
