@@ -3,6 +3,7 @@ package tasks.services;
 import javafx.collections.ObservableList;
 import org.apache.log4j.Logger;
 import tasks.model.LinkedTaskList;
+import tasks.model.MyException;
 import tasks.model.Task;
 import tasks.model.TaskList;
 import tasks.view.*;
@@ -62,8 +63,9 @@ public class TaskIO {
                 taskToAdd.setActive(isActive);
                 tasks.add(taskToAdd);
             }
-        }
-        finally {
+        } catch (MyException e) {
+            e.printStackTrace();
+        } finally {
             dataInputStream.close();
         }
     }
@@ -106,7 +108,7 @@ public class TaskIO {
 
     }
 
-    public static void read(TaskList tasks, Reader in)  throws IOException {
+    public static void read(TaskList tasks, Reader in) throws IOException, MyException {
         BufferedReader reader = new BufferedReader(in);
         String line;
         Task t;
@@ -134,8 +136,9 @@ public class TaskIO {
         FileReader fileReader = new FileReader(file);
         try {
             read(tasks, fileReader);
-        }
-        finally {
+        } catch (MyException e) {
+            e.printStackTrace();
+        } finally {
             fileReader.close();
         }
     }

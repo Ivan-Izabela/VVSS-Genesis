@@ -1,9 +1,19 @@
 
-\
-,src/main/java/tasks/model/ArrayTaskList.java,f\7\f77a2442ed82eb8b7386f5c9a49162f894ad8a61
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+W
+'src/test/java/tasks/model/TaskTest.java,3\1\31324894a484d06adcd87a923fb98e2c49cb815e
+a
+1src/test/java/tasks/services/DateServiceTest.java,e\b\eb67f05314178cc6b3a1e4f981a808f271e00c26
+W
+'src/main/java/tasks/model/TaskList.java,f\c\fc2a13256c261b5abd00e9188b5f42e29358bf6e
+^
+.src/main/java/tasks/model/TasksOperations.java,4\f\4f01b9f8917f794cdf589fb86ab1f8dec2bc64a1
+]
+-src/main/java/tasks/model/LinkedTaskList.java,e\0\e0863ceba847dbe828ffdd5fa8207144974e4dc8
+X
+(src/main/java/tasks/services/TaskIO.java,2\6\26c7ae39591499fab3685c25bb4834dc2fc7cf24
 ^
 .src/main/java/tasks/services/TasksService.java,7\d\7d63de46d8ec7dacaab386b187106455df813537
-R
-"src/main/java/tasks/view/Main.java,a\4\a4e952c1a4765c6cf9a337826a42d32c3f95db7f
-^
-.src/main/java/tasks/controller/Controller.java,e\c\ecf3c385b36af4d118754ee8d9878c48978fcaa9
+Z
+*src/main/java/tasks/model/MyException.java,7\3\73a94c0847439608328dd9ccedfc1a2138d8376d

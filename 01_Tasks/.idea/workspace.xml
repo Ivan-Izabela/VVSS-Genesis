@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe79f98-8ba9-4627-a3ca-7e0c8d7562fb" name="Default Changelist" comment="initial version">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d63de46d8ec7dacaab386b187106455df813537" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a4e952c1a4765c6cf9a337826a42d32c3f95db7f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecf3c385b36af4d118754ee8d9878c48978fcaa9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f77a2442ed82eb8b7386f5c9a49162f894ad8a61" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/NewEditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/controller/NewEditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/ArrayTaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/ArrayTaskList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/TaskList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/services/TaskIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/services/TaskIO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="UML Class" />
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -55,14 +64,15 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\An3\VVSS\VVSS-Genesis\01_Tasks\Docs\Lab2" />
       <recent name="C:\Users\user\Desktop\An3\VVSS\VVSS-Genesis\01_Tasks\Docs\Lab1" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="tasks.services" />
       <recent name="tasks.model" />
+      <recent name="tasks.services" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.Tasks [exec:java]">
+  <component name="RunManager" selected="JUnit.ArrayTaskListTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.view.Main" />
       <module name="Tasks" />
@@ -77,31 +87,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayTaskListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tasks" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tasks.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-        <pattern>
-          <option name="PATTERN" value="tasks.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="14" />
       <option name="PACKAGE_NAME" value="tasks.model" />
-      <option name="MAIN_CLASS_NAME" value="tasks.model.TaskTest" />
-      <option name="METHOD_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="tasks.model.ArrayTaskListTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskTest.testTaskCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayTaskListTest.add_incorrect_title_BVA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -110,15 +111,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tasks.model" />
-      <option name="MAIN_CLASS_NAME" value="tasks.model.TaskTest" />
-      <option name="METHOD_NAME" value="testTaskCreation" />
+      <option name="MAIN_CLASS_NAME" value="tasks.model.ArrayTaskListTest" />
+      <option name="METHOD_NAME" value="add_incorrect_title_BVA" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tasks.model in Tasks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <useClassPathOnly />
+    <configuration name="ArrayTaskListTest.add_incorrect_title_BVA8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasks" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tasks.model.*" />
@@ -126,13 +127,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tasks.model" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="PARAMETERS" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
+      <option name="MAIN_CLASS_NAME" value="tasks.model.ArrayTaskListTest" />
+      <option name="METHOD_NAME" value="add_incorrect_title_BVA8" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayTaskListTest.add_incorrect_title_ECP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tasks.model" />
+      <option name="MAIN_CLASS_NAME" value="tasks.model.ArrayTaskListTest" />
+      <option name="METHOD_NAME" value="add_incorrect_title_ECP" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,17 +178,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.tasks.model in Tasks" />
-      <item itemvalue="JUnit.TaskTest.testTaskCreation" />
-      <item itemvalue="JUnit.TaskTest" />
+      <item itemvalue="JUnit.ArrayTaskListTest" />
+      <item itemvalue="JUnit.ArrayTaskListTest.add_incorrect_title_ECP" />
+      <item itemvalue="JUnit.ArrayTaskListTest.add_incorrect_title_BVA" />
+      <item itemvalue="JUnit.ArrayTaskListTest.add_incorrect_title_BVA8" />
       <item itemvalue="Maven.Tasks [exec:java]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayTaskListTest" />
+        <item itemvalue="JUnit.ArrayTaskListTest.add_incorrect_title_BVA8" />
+        <item itemvalue="JUnit.ArrayTaskListTest.add_incorrect_title_ECP" />
+        <item itemvalue="JUnit.ArrayTaskListTest.add_incorrect_title_BVA" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TaskTest" />
-        <item itemvalue="JUnit.tasks.model in Tasks" />
-        <item itemvalue="JUnit.TaskTest.testTaskCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +248,8 @@
       <workItem from="1647516916951" duration="4112000" />
       <workItem from="1647703931515" duration="402000" />
       <workItem from="1647706618690" duration="702000" />
+      <workItem from="1647710936212" duration="765000" />
+      <workItem from="1647780936162" duration="18486000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1613577157958</created>

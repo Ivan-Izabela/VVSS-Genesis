@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public abstract class TaskList implements Iterable<Task>, Serializable  {
-    public abstract void add(Task task);
+    public abstract void add(Task task) throws MyException;
     public abstract boolean remove(Task task);
     public abstract int size();
     public abstract Task getTask(int index);
@@ -14,7 +14,7 @@ public abstract class TaskList implements Iterable<Task>, Serializable  {
 
     public abstract Iterator<Task> iterator();
 
-    public TaskList incoming(Date from, Date to){
+    public TaskList incoming(Date from, Date to) throws MyException {
         TaskList incomingTasks;
         if (this instanceof ArrayTaskList){
             incomingTasks = new ArrayTaskList();
