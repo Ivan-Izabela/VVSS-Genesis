@@ -13,6 +13,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import org.apache.log4j.Logger;
+import tasks.model.MyException;
 import tasks.model.Task;
 import tasks.services.DateService;
 import tasks.services.TaskIO;
@@ -167,7 +168,7 @@ public class NewEditController {
         try {
             result = makeTask();
         }
-        catch (RuntimeException e){
+        catch (RuntimeException | MyException e){
             incorrectInputMade = true;
             try {
                 Stage stage = new Stage();
@@ -184,7 +185,7 @@ public class NewEditController {
         return result;
     }
 
-    private Task makeTask(){
+    private Task makeTask() throws MyException {
         Task result;
         String newTitle = fieldTitle.getText();
         Date startDateWithNoTime = dateService.getDateValueFromLocalDate(datePickerStart.getValue());//ONLY date!!without time
@@ -194,15 +195,34 @@ public class NewEditController {
             Date newEndDate = dateService.getDateMergedWithTime(txtFieldTimeEnd.getText(), endDateWithNoTime);
             int newInterval = service.parseFromStringToSeconds(fieldInterval.getText());
             if (newStartDate.after(newEndDate)) throw new IllegalArgumentException("Start date should be before end");
-            result = new Task(newTitle, newStartDate,newEndDate, newInterval);
+            result = validateTask(newTitle, newStartDate,newEndDate, newInterval);
         }
         else {
-            result = new Task(newTitle, newStartDate);
+            result = validateTask(newTitle, newStartDate,null,0);
         }
         boolean isActive = checkBoxActive.isSelected();
         result.setActive(isActive);
         log.info(result);
         return result;
+    }
+
+    private Task validateTask(String title, Date start, Date end, int interval) throws MyException{
+        Date now =new Date();
+        if(start.before(now) || start.equals(now)){
+            throw new MyException("Start date shouldn't be < = than current date time");
+        }
+        if(end!=null && (start.before(end) || start.equals(end))){
+            throw new MyException("Start date shouldn't be > =  than end date");
+        }
+
+        if(title.length()<=1 || title.length() >=255){
+            throw new MyException("Title length must be between 1 and 255");
+        }
+        if(end!= null){
+            return new Task(title,start, end, interval);
+        }
+        else return new Task(title,start);
+
     }
 
 

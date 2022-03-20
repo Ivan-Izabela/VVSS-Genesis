@@ -52,16 +52,40 @@ public class ArrayTaskList extends TaskList{
     }
 
     @Override
-    public void add(Task task){
+    public void add(Task task) throws MyException {
         if (task==null) throw new NullPointerException("Task shouldn't be null");
-        if (numberOfTasks == currentCapacity-1){
-            currentCapacity = currentCapacity * 2;
-            Task[] withAddedTask = new Task[currentCapacity];
-            System.arraycopy(tasks,0,withAddedTask,0,tasks.length);
-            this.tasks = withAddedTask;
+
+            valid(task);
+            if (numberOfTasks == currentCapacity-1){
+                currentCapacity = currentCapacity * 2;
+                Task[] withAddedTask = new Task[currentCapacity];
+                System.arraycopy(tasks,0,withAddedTask,0,tasks.length);
+                this.tasks = withAddedTask;
+            }
+            this.tasks[numberOfTasks] = task;
+            this.numberOfTasks++;
+
+
+
+    }
+
+    private void valid(Task task) throws MyException {
+        Date now =new Date();
+        Date start=task.getStartTime();
+        Date end=task.getEndTime();
+        String title=task.getTitle();
+
+        if(start.before(now)){
+            throw new MyException("Start date shouldn't be < than current date time");
         }
-        this.tasks[numberOfTasks] = task;
-        this.numberOfTasks++;
+        if(end.before(start)){
+            throw new MyException("Start date shouldn't be > than end date");
+        }
+
+        if(title=="" || title.length()<=1 || title.length() >=255){
+            throw new MyException("Title length must be between 1 and 255");
+        }
+
     }
     @Override
     public boolean remove(Task task){
@@ -141,7 +165,11 @@ public class ArrayTaskList extends TaskList{
     protected ArrayTaskList clone() throws CloneNotSupportedException {
         ArrayTaskList newTasks = new ArrayTaskList();
         for (int i = 0; i < this.tasks.length; i++){
-            newTasks.add(this.getTask(i));
+            try {
+                newTasks.add(this.getTask(i));
+            } catch (MyException e) {
+                e.printStackTrace();
+            }
         }
         return newTasks;
 
