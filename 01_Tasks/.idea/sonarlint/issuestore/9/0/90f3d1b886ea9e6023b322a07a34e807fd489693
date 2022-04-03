@@ -1,0 +1,11 @@
+
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(©Ù§š
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ý–ë“ûÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(“–ýþ
+B
+java:S1602?",Remove useless curly braces around statement(ÃÉþ©
+E
+java:S1066*"/Merge this if statement with the enclosing one.(ÈÐÚ¨
+\
+java:S21844"FCast one of the operands of this multiplication operation to a "long".(Ž …“

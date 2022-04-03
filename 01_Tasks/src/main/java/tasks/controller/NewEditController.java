@@ -19,6 +19,7 @@ import tasks.services.DateService;
 import tasks.services.TaskIO;
 import tasks.services.TasksService;
 
+import javax.swing.*;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.Date;
@@ -176,6 +177,7 @@ public class NewEditController {
                 stage.setScene(new Scene(root, 350, 150));
                 stage.setResizable(false);
                 stage.initModality(Modality.APPLICATION_MODAL);
+                JOptionPane.showMessageDialog(null, e.getMessage());
                 stage.show();
             }
             catch (IOException ioe){
@@ -195,7 +197,7 @@ public class NewEditController {
             Date newEndDate = dateService.getDateMergedWithTime(txtFieldTimeEnd.getText(), endDateWithNoTime);
             int newInterval = service.parseFromStringToSeconds(fieldInterval.getText());
             if (newStartDate.after(newEndDate)) throw new IllegalArgumentException("Start date should be before end");
-            result = validateTask(newTitle, newStartDate,newEndDate, newInterval);
+            result =validateTask(newTitle, newStartDate,newEndDate, newInterval);
         }
         else {
             result = validateTask(newTitle, newStartDate,null,0);
@@ -208,11 +210,11 @@ public class NewEditController {
 
     private Task validateTask(String title, Date start, Date end, int interval) throws MyException{
         Date now =new Date();
-        if(start.before(now) || start.equals(now)){
-            throw new MyException("Start date shouldn't be < = than current date time");
+        if(start.before(now) ){
+            throw new MyException("Start date shouldn't be <  than current date time");
         }
-        if(end!=null && (start.before(end) || start.equals(end))){
-            throw new MyException("Start date shouldn't be > =  than end date");
+        if(end!=null && (start.after(end) )){
+            throw new MyException("Start date shouldn't be >   than end date");
         }
 
         if(title.length()<=1 || title.length() >=255){

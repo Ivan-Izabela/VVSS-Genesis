@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe79f98-8ba9-4627-a3ca-7e0c8d7562fb" name="Default Changelist" comment="initial version">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26c7ae39591499fab3685c25bb4834dc2fc7cf24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/31324894a484d06adcd87a923fb98e2c49cb815e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f01b9f8917f794cdf589fb86ab1f8dec2bc64a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/73a94c0847439608328dd9ccedfc1a2138d8376d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d63de46d8ec7dacaab386b187106455df813537" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a4e952c1a4765c6cf9a337826a42d32c3f95db7f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecf3c385b36af4d118754ee8d9878c48978fcaa9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f77a2442ed82eb8b7386f5c9a49162f894ad8a61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0863ceba847dbe828ffdd5fa8207144974e4dc8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/NewEditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/controller/NewEditController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/ArrayTaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/ArrayTaskList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/TaskList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/services/TaskIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/services/TaskIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tasks/model/ArrayTaskListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tasks/model/ArrayTaskListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/tasks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +33,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="UML Class" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1XnEHoqZMPZ1XnpQrub9xp7L4QM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -57,36 +69,22 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.155" />
     <property name="project.structure.side.proportion" value="0.25462964" />
-    <property name="settings.editor.selected.configurable" value="sonarlint" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\An3\VVSS\VVSS-Genesis\01_Tasks\Docs\Lab2" />
       <recent name="C:\Users\user\Desktop\An3\VVSS\VVSS-Genesis\01_Tasks\Docs\Lab1" />
+      <recent name="C:\Users\user\Desktop\An3\VVSS\VVSS-Genesis\01_Tasks\Docs\Lab2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="tasks.model" />
       <recent name="tasks.services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayTaskListTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.view.Main" />
-      <module name="Tasks" />
-      <option name="PROGRAM_PARAMETERS" value="--module-path &quot;c:\javafx-sdk-17.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tasks.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ArrayTaskListTest.add_incorrect_date_BVA4">
     <configuration name="ArrayTaskListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tasks" />
       <extension name="coverage">
@@ -102,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayTaskListTest.add_incorrect_title_BVA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayTaskListTest.add_correct_title_date_ECP3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -112,13 +110,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tasks.model" />
       <option name="MAIN_CLASS_NAME" value="tasks.model.ArrayTaskListTest" />
-      <option name="METHOD_NAME" value="add_incorrect_title_BVA" />
+      <option name="METHOD_NAME" value="add_correct_title_date_ECP3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayTaskListTest.add_incorrect_title_BVA8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayTaskListTest.add_incorect_date_ECP2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -128,13 +126,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tasks.model" />
       <option name="MAIN_CLASS_NAME" value="tasks.model.ArrayTaskListTest" />
-      <option name="METHOD_NAME" value="add_incorrect_title_BVA8" />
+      <option name="METHOD_NAME" value="add_incorect_date_ECP2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayTaskListTest.add_incorrect_title_ECP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayTaskListTest.add_incorrect_date_BVA4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -144,7 +142,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="tasks.model" />
       <option name="MAIN_CLASS_NAME" value="tasks.model.ArrayTaskListTest" />
-      <option name="METHOD_NAME" value="add_incorrect_title_ECP" />
+      <option name="METHOD_NAME" value="add_incorrect_date_BVA4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayTaskListTest.add_incorrect_title_ECP1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tasks.model" />
+      <option name="MAIN_CLASS_NAME" value="tasks.model.ArrayTaskListTest" />
+      <option name="METHOD_NAME" value="add_incorrect_title_ECP1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,20 +191,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.ArrayTaskListTest" />
-      <item itemvalue="JUnit.ArrayTaskListTest.add_incorrect_title_ECP" />
-      <item itemvalue="JUnit.ArrayTaskListTest.add_incorrect_title_BVA" />
-      <item itemvalue="JUnit.ArrayTaskListTest.add_incorrect_title_BVA8" />
       <item itemvalue="Maven.Tasks [exec:java]" />
+      <item itemvalue="JUnit.ArrayTaskListTest.add_incorrect_title_ECP1" />
+      <item itemvalue="JUnit.ArrayTaskListTest.add_incorect_date_ECP2" />
+      <item itemvalue="JUnit.ArrayTaskListTest" />
+      <item itemvalue="JUnit.ArrayTaskListTest.add_correct_title_date_ECP3" />
+      <item itemvalue="JUnit.ArrayTaskListTest.add_incorrect_date_BVA4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayTaskListTest.add_incorrect_date_BVA4" />
         <item itemvalue="JUnit.ArrayTaskListTest" />
-        <item itemvalue="JUnit.ArrayTaskListTest.add_incorrect_title_BVA8" />
-        <item itemvalue="JUnit.ArrayTaskListTest.add_incorrect_title_ECP" />
-        <item itemvalue="JUnit.ArrayTaskListTest.add_incorrect_title_BVA" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ArrayTaskListTest.add_incorect_date_ECP2" />
+        <item itemvalue="JUnit.ArrayTaskListTest.add_correct_title_date_ECP3" />
+        <item itemvalue="JUnit.ArrayTaskListTest.add_incorrect_title_ECP1" />
       </list>
     </recent_temporary>
   </component>
@@ -250,6 +264,13 @@
       <workItem from="1647706618690" duration="702000" />
       <workItem from="1647710936212" duration="765000" />
       <workItem from="1647780936162" duration="18486000" />
+      <workItem from="1647803733412" duration="492000" />
+      <workItem from="1647867201891" duration="1884000" />
+      <workItem from="1648284766925" duration="61000" />
+      <workItem from="1648885556142" duration="1382000" />
+      <workItem from="1648915621191" duration="3791000" />
+      <workItem from="1648921209369" duration="2523000" />
+      <workItem from="1648979432985" duration="17768000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1613577157958</created>
@@ -298,6 +319,16 @@
     <SUITE FILE_PATH="coverage/Tasks_iml$TaskTest.ic" NAME="TaskTest Coverage Results" MODIFIED="1616161680439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tasks.model.*</FILTER>
       <FILTER>tasks.services.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Tasks_iml$TaskTestWBT.ic" NAME="TaskTestWBT Coverage Results" MODIFIED="1649004937263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tasks.model.*</FILTER>
+      <FILTER>tasks.model.Task</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Tasks_iml$TaskTestWBT_WBT_TC7.ic" NAME="TaskTestWBT.WBT_TC7 Coverage Results" MODIFIED="1649002270612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tasks.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Tasks_iml$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1649002220585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tasks.model.*</FILTER>
     </SUITE>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
